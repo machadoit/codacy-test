@@ -480,7 +480,7 @@ yellow.webinterface =
 		key = prefix + key.charAt(0).toUpperCase() + key.slice(1) + postfix.charAt(0).toUpperCase() + postfix.slice(1);
 		return (key in yellow.text) ? yellow.text[key] : "["+key+"]";
 	}
-}
+};
 
 // Yellow toolbox with helpers
 yellow.toolbox =
@@ -769,6 +769,6 @@ yellow.toolbox =
 		document.body.appendChild(elementForm);
 		elementForm.submit();
 	}
-}
+};
 
 yellow.webinterface.intervalId = setInterval("yellow.onLoad()", 1);
